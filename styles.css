@@ -24,3 +24,20 @@ h1{
     margin: 0%;
     padding-top:35px ;
 }
+@media (max-width: 480px) {
+    #clockbase {
+        gap: 20px; /* smaller gap between divs */
+    }
+
+    div {
+        height: 140px; /* smaller boxes */
+        width: 110px;
+        border-radius: 15px; /* slightly smaller rounding */
+        border-width: 2px;
+    }
+
+    h1 {
+        font-size: 60px; /* smaller font for mobile */
+        padding-top: 20px;
+    }
+}
